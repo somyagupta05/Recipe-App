@@ -188,9 +188,9 @@ exports.submitRecipeOnPost = async (req, res) => {
 };
 
 // Delete Recipe
-// async function deleteRecipe(){
+// async function deleteRecipe() {
 //   try {
-//     await Recipe.deleteOne({ name: 'New Recipe From Form' });
+//     await Recipe.deleteOne({ name: "New Recipe From Form" });
 //   } catch (error) {
 //     console.log(error);
 //   }
@@ -198,9 +198,12 @@ exports.submitRecipeOnPost = async (req, res) => {
 // deleteRecipe();
 
 // Update Recipe
-// async function updateRecipe(){
+// async function updateRecipe() {
 //   try {
-//     const res = await Recipe.updateOne({ name: 'New Recipe' }, { name: 'New Recipe Updated' });
+//     const res = await Recipe.updateOne(
+//       { name: "New Recipe" },
+//       { name: "New Recipe Updated" }
+//     );
 //     res.n; // Number of documents matched
 //     res.nModified; // Number of documents modified
 //   } catch (error) {
